@@ -10,4 +10,11 @@ export class AgeCalc {
       return parseFloat(this.age);
     }
   }
+
+  venusAge() {
+    for (const planet in this.planets) {
+      this.age = ((this.age * this.planets[planet]).toFixed(2));
+      return parseFloat(this.age);
+    }
+  }
 }
