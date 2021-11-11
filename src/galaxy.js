@@ -10,4 +10,7 @@ export class AgeCalc {
     return parseFloat((this.planets[this.chosenPlanet] * this.age).toFixed(2));
   }
 
+  yearsToLive() {
+    return parseFloat(this.avgLife - this.planetAge());
+  }
 }
