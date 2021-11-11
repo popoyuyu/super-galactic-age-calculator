@@ -9,4 +9,5 @@ export class AgeCalc {
   planetAge() {
     return parseFloat((this.planets[this.chosenPlanet] * this.age).toFixed(2));
   }
+
 }
