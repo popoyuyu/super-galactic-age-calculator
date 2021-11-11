@@ -13,4 +13,17 @@ export class AgeCalc {
   yearsToLive() {
     return parseFloat(this.avgLife - this.planetAge());
   }
+
+  yearsPastExp() {
+    // for (const planet in this.planets) {
+    //   this.avgLife = ((this.avgLife * this.planets[planet]).toFixed(2));
+    //   parseFloat(this.avgLife);
+    this.avgLife = ((this.avgLife * this.planets[planet]).toFixed(2));
+    parseFloat(this.avgLife);
+    if (this.planetAge() > this.avgLife) {
+      return this.planetAge() - this.avgLife;
+    }
+
+  }
 }
+
