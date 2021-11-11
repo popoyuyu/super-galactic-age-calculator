@@ -5,13 +5,9 @@ export class AgeCalc {
   }
 
   mercuryAge() {
-    for (let i = 0; i < this.planets.length; i++) {
-      this.age = ((this.age * this.planets[i]).toFixed(2));
-      return (this.age);
+    for (const planet in this.planets) {
+      this.age = ((this.age * this.planets[planet]).toFixed(2));
+      return parseFloat(this.age);
     }
-  }
-
-  function2() {
-
   }
 }
