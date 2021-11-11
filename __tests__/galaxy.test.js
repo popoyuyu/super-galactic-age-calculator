@@ -10,10 +10,10 @@ describe("AgeCalc", () => {
     const age = new AgeCalc(2, "mars");
     expect(age.planetAge()).toEqual(3.76);
   });
-  // test("should calculate the age on planet", () => {
-  //   const age = new AgeCalc(43, "jupiter");
-  //   expect(age.planetAge()).toEqual(509.98);
-  // });
+  test("should calculate the age on planet", () => {
+    const age = new AgeCalc(43, "jupiter");
+    expect(age.planetAge()).toEqual(509.98);
+  });
 
 
 
