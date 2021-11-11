@@ -11,8 +11,8 @@ describe("AgeCalc", () => {
     expect(age.planetAge()).toEqual(3.76);
   });
   // test("should calculate the age on planet", () => {
-  //   const age = new AgeCalc(3, "venus");
-  //   expect(age.planetAge()).toEqual(1.86);
+  //   const age = new AgeCalc(43, "jupiter");
+  //   expect(age.planetAge()).toEqual(509.98);
   // });
 
 
