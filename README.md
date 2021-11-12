@@ -6,31 +6,29 @@
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+_This web application allows user to find out their age on other planets by inputting their Earth age. It will also determine the users life expectancy based on Earth's average life expectancy. If a user has already surpassed the average life expectancy the web application will return this number of years past life expectancy._
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* _JavaScript_
+* _Jest_
+* _Node Package Manager_
 
 
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _Open terminal type "$ git clone https://github.com/popoyuyu/super-galactic-age-calculator.git"_
+* _$ cd super-galactic-age-calculator_
+* _$ code ._
+* _$ npm install_
+* _$ npm test_
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? Does it require building packages? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _No known issues_
+
 
 ## License
 
@@ -53,8 +51,4 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE._
 
 
-Copyright (c) _October 15th 2021_ _Jeff Lai_
-
-## Contact Information
-
-_{Add your contact information here.}_
+Copyright (c) _November 11th 2021_ _Jeff Lai_

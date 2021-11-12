@@ -15,10 +15,6 @@ export class AgeCalc {
   }
 
   yearsPastExp() {
-    // this.avgLife = ((this.planets[this.chosenPlanet] * this.avgLife).toFixed(2));
-    // this.avgLife = parseFloat(this.avgLife);
-    // console.log(this.avgLife);
-
     if (this.planetAge() > this.avgLife) {
       return parseFloat((this.planetAge() - this.avgLife).toFixed(2));
     }
