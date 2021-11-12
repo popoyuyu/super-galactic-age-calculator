@@ -15,15 +15,13 @@ export class AgeCalc {
   }
 
   yearsPastExp() {
-    // for (const planet in this.planets) {
-    //   this.avgLife = ((this.avgLife * this.planets[planet]).toFixed(2));
-    //   parseFloat(this.avgLife);
-    this.avgLife = ((this.avgLife * this.planets[planet]).toFixed(2));
-    parseFloat(this.avgLife);
-    if (this.planetAge() > this.avgLife) {
-      return this.planetAge() - this.avgLife;
-    }
+    // this.avgLife = ((this.planets[this.chosenPlanet] * this.avgLife).toFixed(2));
+    // this.avgLife = parseFloat(this.avgLife);
+    // console.log(this.avgLife);
 
+    if (this.planetAge() > this.avgLife) {
+      return parseFloat((this.planetAge() - this.avgLife).toFixed(2));
+    }
   }
 }
 
